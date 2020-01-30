@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import Navbar from './Navbar'
+import Header from './Header'
 
 export default class RandomBeers extends Component {
     render() {
         console.log('RandomBeers ---> RandomBeers rendered')
         return (
             <div>
-            <Navbar />
-                <img src='../images/random-beer.png'></img>
+            <Header />
+                <img src='../images/random-beer.png' alt='random-beer'></img>
             </div>
         )
     }
