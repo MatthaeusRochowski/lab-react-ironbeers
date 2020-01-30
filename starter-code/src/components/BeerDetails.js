@@ -2,6 +2,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import Header from "./Header";
+
 
 export default class BeerDetails extends Component {
   constructor(props) {
@@ -32,13 +34,14 @@ export default class BeerDetails extends Component {
     const singleBeer = this.state.singleBeer;
 
     return (
-      <div> 
+      <div>
+      <Header />
       <Link to="/beers">Back</Link>
         <div className="col-7">
           <img
             src={singleBeer.image_url}
             alt="beer"
-            style={{ width: "30%" }}
+            style={{ width: "20%" }}
           ></img>
           <table className="table">
             <thead></thead>

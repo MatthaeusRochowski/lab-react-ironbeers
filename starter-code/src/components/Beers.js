@@ -38,7 +38,7 @@ export default class Beers extends Component {
               return (
                 <tr key={beer._id}>
                   <td>
-                  <Link to={`/beers/${beer._id}`}><img src={beer.image_url} alt='beer' style={{ width: "30%" }}/></Link>
+                  <Link to={`/beers/${beer._id}`}><img src={beer.image_url} alt='beer' style={{ width: "20%" }}/></Link>
                   </td>
                   <td>
                       <h3>{beer.name}</h3>

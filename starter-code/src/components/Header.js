@@ -5,7 +5,7 @@ export default () => (
   <div>
     <Link to={`/`}>
       <header>
-        <img src="./images/header.png" alt='header'/>
+        <img src="../images/header.png" alt='header'/>
       </header>
     </Link>
   </div>
